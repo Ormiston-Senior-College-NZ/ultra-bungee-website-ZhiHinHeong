@@ -1,17 +1,84 @@
-/* fonts */
-
-
-/* site colour palette */
-:root {
-    --color: 
-}
-
-
-/* generic style reset */
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-/* add your own style rules here */
+body {
+    background-color: #f4f4f4;
+    color: black;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: white;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Content Sections */
+.content {
+    padding: 50px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #cc5200;
+}
