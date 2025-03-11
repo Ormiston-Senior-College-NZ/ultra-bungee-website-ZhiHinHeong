@@ -18,6 +18,10 @@ header {
     padding: 15px 0;
 }
 
+.logo {
+    width: 200px;
+}
+
 header h1 {
     margin-bottom: 10px;
 }
@@ -44,6 +48,8 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
+    background: url(img/canyon1.jpg) no-repeat center;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -51,6 +57,23 @@ nav ul li a:hover {
     flex-direction: column;
     background-size: cover;
     background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+/* Semi-transparent box for text at the bottom */
+.hero-content {
+    background: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 100%; /* Full width */
+    max-width: 800px;
+    position: absolute;
+    bottom: 10%; /* Moves it to the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Centers it horizontally */
+    text-align: center;
 }
 
 .hero-image {
