@@ -8,28 +8,28 @@
 body {
     background-color: #f4f4f4;
     color: black;
-    text-align: center;
+    text-align: left;
 }
 
 /* Header */
 header {
-    background: #222;
+    background: #000000;
     color: white;
     padding: 15px 0;
 }
 
 .logo {
-    width: 200px;
+    width: 250px;
 }
 
 header h1 {
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 nav ul li {
@@ -86,7 +86,7 @@ nav ul li a:hover {
 /* Content Sections */
 .content {
     padding: 50px;
-    background: white;
+    background: lightgray;
     margin: 20px;
     border-radius: 10px;
 }
@@ -96,12 +96,12 @@ nav ul li a:hover {
     display: inline-block;
     padding: 10px 20px;
     background: #ff6600;
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 10px;
 }
 
 .btn:hover {
-    background: #cc5200;
+    background: grey;
 }
